@@ -17,8 +17,6 @@ pattern = "**/*.{ts,js}"
 [languages.deno.languageServer]
 start = ["deno", "lsp", "-q"]
 
-
-
 [env]
 DENO_DIR = "/home/runner/${REPL_SLUG}/.deno"
 
